@@ -13,3 +13,4 @@ C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.
 >>>>>>> origin/master
 C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.exe
 C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.pdb
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.frmHighLow.resources
