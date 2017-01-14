@@ -11,3 +11,5 @@ C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.pd
 =======
 C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.config
 >>>>>>> origin/master
+C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.exe
+C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.pdb
