@@ -9,33 +9,6 @@ namespace CardGame
     class Card
     {
         private String suit;
-        private int value;
-
-        public string Suit
-        {
-            get
-            {
-                return suit;
-            }
-
-            set
-            {
-                suit = value;
-            }
-        }
-
-        public int Value
-        {
-            get
-            {
-                return value;
-            }
-
-            set
-            {
-                this.value = value;
-            }
-        }
-
+        private int value; 
     }
 }
