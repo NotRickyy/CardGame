@@ -32,8 +32,9 @@
             this.lblOtherCard = new System.Windows.Forms.Label();
             this.lblDeck = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnHigher = new System.Windows.Forms.Button();
+            this.btnLower = new System.Windows.Forms.Button();
+            this.lblScoreNum = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblUserCard
@@ -72,27 +73,37 @@
             this.lblScore.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblScore.Location = new System.Drawing.Point(12, 25);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(47, 13);
+            this.lblScore.Size = new System.Drawing.Size(38, 13);
             this.lblScore.TabIndex = 3;
-            this.lblScore.Text = "Score: 0";
+            this.lblScore.Text = "Score:";
             // 
-            // button1
+            // btnHigher
             // 
-            this.button1.Location = new System.Drawing.Point(15, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnHigher.Location = new System.Drawing.Point(15, 113);
+            this.btnHigher.Name = "btnHigher";
+            this.btnHigher.Size = new System.Drawing.Size(75, 23);
+            this.btnHigher.TabIndex = 4;
+            this.btnHigher.Text = "Higher";
+            this.btnHigher.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnLower
             // 
-            this.button2.Location = new System.Drawing.Point(15, 206);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLower.Location = new System.Drawing.Point(15, 206);
+            this.btnLower.Name = "btnLower";
+            this.btnLower.Size = new System.Drawing.Size(75, 23);
+            this.btnLower.TabIndex = 5;
+            this.btnLower.Text = "Lower";
+            this.btnLower.UseVisualStyleBackColor = true;
+            // 
+            // lblScoreNum
+            // 
+            this.lblScoreNum.AutoSize = true;
+            this.lblScoreNum.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.lblScoreNum.Location = new System.Drawing.Point(56, 25);
+            this.lblScoreNum.Name = "lblScoreNum";
+            this.lblScoreNum.Size = new System.Drawing.Size(13, 13);
+            this.lblScoreNum.TabIndex = 6;
+            this.lblScoreNum.Text = "0";
             // 
             // frmHighLow
             // 
@@ -100,8 +111,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(484, 461);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblScoreNum);
+            this.Controls.Add(this.btnLower);
+            this.Controls.Add(this.btnHigher);
             this.Controls.Add(this.lblScore);
             this.Controls.Add(this.lblDeck);
             this.Controls.Add(this.lblOtherCard);
@@ -119,7 +131,8 @@
         private System.Windows.Forms.Label lblOtherCard;
         private System.Windows.Forms.Label lblDeck;
         private System.Windows.Forms.Label lblScore;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnHigher;
+        private System.Windows.Forms.Button btnLower;
+        private System.Windows.Forms.Label lblScoreNum;
     }
 }
