@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CardGame
 {
-    public partial class Form1 : Form
+    public partial class frmCardGame : Form
     {
-        public Form1()
+        public frmCardGame()
         {
             InitializeComponent();
         }
