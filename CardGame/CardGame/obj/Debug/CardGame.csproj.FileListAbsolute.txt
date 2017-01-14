@@ -1,1 +1,9 @@
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.config
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.pdb
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.frmCardGame.resources
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.Properties.Resources.resources
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.exe
+C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.pdb
