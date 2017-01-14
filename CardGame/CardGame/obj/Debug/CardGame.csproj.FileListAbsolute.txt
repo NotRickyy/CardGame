@@ -1,4 +1,5 @@
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.config
+<<<<<<< HEAD
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.pdb
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csprojResolveAssemblyReference.cache
@@ -7,3 +8,6 @@ C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.Pr
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.exe
 C:\Users\Ricky\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.pdb
+=======
+C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\bin\Debug\CardGame.exe.config
+>>>>>>> origin/master
