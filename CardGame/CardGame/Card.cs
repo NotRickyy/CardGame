@@ -43,19 +43,14 @@ namespace CardGame
             {
                 case 1:
                     return "Hearts";
-                    break;
                 case 2:
                     return "Diamonds";
-                    break;
                 case 3:
                     return "Clubs";
-                    break;
                 case 4:
                     return "Spades";
-                    break;
                 default:
                     return "Error";
-                    break;
             }
         }
 
@@ -70,7 +65,6 @@ namespace CardGame
                 return "Lower";
             }else if (card.value == this.value)
             {
-                return "Equal";
                 if (chkSuit == true)
                 {
                     if (card.suit > this.suit)
@@ -82,7 +76,9 @@ namespace CardGame
                         return "Lower";
                     }
                 }
+                return "Equal";
             }
+            return "Error";
         }
     }
 }
