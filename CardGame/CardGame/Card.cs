@@ -37,21 +37,46 @@ namespace CardGame
             }
         }
 
-        public String getSuitString()
+        public String getCardName()
         {
+            String suit = "";
             switch (this.suit)
             {
                 case 1:
-                    return "Hearts";
+                    suit = "Hearts";
+                    break;
                 case 2:
-                    return "Diamonds";
+                    suit = "Diamonds";
+                    break;
                 case 3:
-                    return "Clubs";
+                    suit = "Clubs";
+                    break;
                 case 4:
-                    return "Spades";
+                    suit = "Spades";
+                    break;
                 default:
-                    return "Error";
+                    suit = "Error";
+                    break;
             }
+            String value = this.Value.ToString();
+            switch (value)
+            {
+                case "1":
+                    value = "Ace";
+                    break;
+                case "11":
+                    value = "Jack";
+                    break;
+                case "12":
+                    value = "Queen";
+                    break;
+                case "13":
+                    value = "King";
+                    break;
+                default:
+                    break;
+            }
+            return value + " of " + suit;
         }
 
         //compare card, set chkSuit to true to compare the suits as well
@@ -60,10 +85,12 @@ namespace CardGame
             if (card.value > this.value)
             {
                 return "Higher";
-            }else if (card.value < this.value)
+            }
+            else if (card.value < this.value)
             {
                 return "Lower";
-            }else if (card.value == this.value)
+            }
+            else if (card.value == this.value)
             {
                 if (chkSuit == true)
                 {
@@ -76,6 +103,7 @@ namespace CardGame
                         return "Lower";
                     }
                 }
+                //Can add to check suit to see which is higher here.
                 return "Equal";
             }
             return "Error";
