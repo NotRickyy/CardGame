@@ -35,6 +35,7 @@
             this.btnHigher = new System.Windows.Forms.Button();
             this.btnLower = new System.Windows.Forms.Button();
             this.lblScoreNum = new System.Windows.Forms.Label();
+            this.btnBack = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblUserCard
@@ -105,12 +106,24 @@
             this.lblScoreNum.TabIndex = 6;
             this.lblScoreNum.Text = "0";
             // 
+            // btnBack
+            // 
+            this.btnBack.CausesValidation = false;
+            this.btnBack.Location = new System.Drawing.Point(15, 414);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(75, 23);
+            this.btnBack.TabIndex = 7;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
             // frmHighLow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(484, 461);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lblScoreNum);
             this.Controls.Add(this.btnLower);
             this.Controls.Add(this.btnHigher);
@@ -134,5 +147,6 @@
         private System.Windows.Forms.Button btnHigher;
         private System.Windows.Forms.Button btnLower;
         private System.Windows.Forms.Label lblScoreNum;
+        private System.Windows.Forms.Button btnBack;
     }
 }

@@ -21,5 +21,15 @@ namespace CardGame
         {
             Close();
         }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            
+            frmHighLow highLow = new frmHighLow();
+            this.Hide();
+            highLow.Show();
+            
+
+        }
     }
 }

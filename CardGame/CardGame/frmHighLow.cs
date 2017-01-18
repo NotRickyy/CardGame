@@ -16,5 +16,12 @@ namespace CardGame
         {
             InitializeComponent();
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmCardGame cardGame = new frmCardGame();
+            cardGame.Show();
+
+        }
     }
 }
