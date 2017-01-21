@@ -36,6 +36,8 @@
             this.btnLower = new System.Windows.Forms.Button();
             this.lblScoreNum = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
+            this.picUserCard = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picUserCard)).BeginInit();
             this.SuspendLayout();
             // 
             // lblUserCard
@@ -117,12 +119,23 @@
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
+            // picUserCard
+            // 
+            this.picUserCard.Image = global::CardGame.Properties.Resources.Clubs_1;
+            this.picUserCard.Location = new System.Drawing.Point(204, 230);
+            this.picUserCard.Name = "picUserCard";
+            this.picUserCard.Size = new System.Drawing.Size(72, 97);
+            this.picUserCard.TabIndex = 8;
+            this.picUserCard.TabStop = false;
+            this.picUserCard.Click += new System.EventHandler(this.picUserCard_Click);
+            // 
             // frmHighLow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(484, 461);
+            this.Controls.Add(this.picUserCard);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.lblScoreNum);
             this.Controls.Add(this.btnLower);
@@ -133,6 +146,7 @@
             this.Controls.Add(this.lblUserCard);
             this.Name = "frmHighLow";
             this.Text = "HighLow";
+            ((System.ComponentModel.ISupportInitialize)(this.picUserCard)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -148,5 +162,6 @@
         private System.Windows.Forms.Button btnLower;
         private System.Windows.Forms.Label lblScoreNum;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.PictureBox picUserCard;
     }
 }

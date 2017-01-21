@@ -8,8 +8,14 @@ namespace CardGame
 {
     class Card
     {
-        private int suit;//4=hearts, 3=diamonds, 2=clubs, 1=spades.  Order can be changed if needed.
+        private int suit;//1=hearts, 2=diamonds, 3=clubs, 4=spades.  Order can be changed if needed.
         private int value;
+
+        public Card(int suit, int value)
+        {
+            Value = value;
+            Suit = suit;
+        }
 
         public int Suit
         {
@@ -37,10 +43,10 @@ namespace CardGame
             }
         }
 
-        public String getCardName()
+        public String getSuitName()
         {
             String suit = "";
-            switch (this.suit)
+            switch (Suit)
             {
                 case 1:
                     suit = "Hearts";
@@ -58,6 +64,13 @@ namespace CardGame
                     suit = "Error";
                     break;
             }
+            return suit;
+        }
+
+        public String getCardName()
+        {
+            String suit = getSuitName();
+
             String value = this.Value.ToString();
             switch (value)
             {
@@ -77,6 +90,11 @@ namespace CardGame
                     break;
             }
             return value + " of " + suit;
+        }
+
+        public String getCardIdentifier()
+        {
+            return getSuitName() + "_" + Value;
         }
 
         //compare card, set chkSuit to true to compare the suits as well
