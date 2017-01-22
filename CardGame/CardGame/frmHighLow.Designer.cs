@@ -121,7 +121,6 @@
             // 
             // picUserCard
             // 
-            this.picUserCard.Image = global::CardGame.Properties.Resources.Clubs_1;
             this.picUserCard.Location = new System.Drawing.Point(204, 230);
             this.picUserCard.Name = "picUserCard";
             this.picUserCard.Size = new System.Drawing.Size(72, 97);

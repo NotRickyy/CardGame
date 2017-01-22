@@ -129,6 +129,123 @@
   <ItemGroup>
     <None Include="Resources\Clubs_13.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Diamonds_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hearts_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Spades_13.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

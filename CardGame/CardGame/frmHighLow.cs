@@ -16,6 +16,7 @@ namespace CardGame
         Card[] testDeck;
         String cardImage;
         int currentCard;
+        //end test variables
 
         public frmHighLow()
         {
@@ -23,11 +24,23 @@ namespace CardGame
 
             //test
             currentCard = 0;
-            testDeck = new Card[13];
+            testDeck = new Card[52];
+            int suit = 1;
+            int value = 1; 
             for (int i=0; i < testDeck.Length; i++) {
-                testDeck[i] = new Card(3, i + 1);
+                testDeck[i] = new Card(suit, value);
+                value++;
+                if (value == 14)
+                {
+                    value = 1;
+                    suit++;
+                }
             }
-            cardImage = testDeck[0].getCardIdentifier();
+            cardImage = testDeck[currentCard].getCardIdentifier();
+            lblUserCard.Text = cardImage;
+            picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
+            picUserCard.Refresh();
+            //end test
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -50,5 +63,6 @@ namespace CardGame
             picUserCard.Refresh();
             currentCard++;
         }
+        //end testing
     }
 }
