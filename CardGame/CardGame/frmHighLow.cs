@@ -18,6 +18,7 @@ namespace CardGame
         int currentCard;
         //end test variables
 
+
         public frmHighLow()
         {
             InitializeComponent();
@@ -36,10 +37,10 @@ namespace CardGame
                     suit++;
                 }
             }
-            cardImage = testDeck[currentCard].getCardIdentifier();
-            lblUserCard.Text = cardImage;
-            picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
-            picUserCard.Refresh();
+            //cardImage = testDeck[currentCard].getCardIdentifier();
+            //lblUserCard.Text = cardImage;
+            //picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
+            //picUserCard.Refresh();
             //end test
         }
 
@@ -47,6 +48,7 @@ namespace CardGame
         {
             frmCardGame cardGame = new frmCardGame();
             cardGame.Show();
+            Close();
 
         }
 
@@ -62,6 +64,58 @@ namespace CardGame
             picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
             picUserCard.Refresh();
             currentCard++;
+        }
+
+        private void lblDeck_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnHigher_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLower_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void picDeck_Click(object sender, EventArgs e)
+        {
+
+            Random rndUser = new Random();
+            //if (currentCard > testDeck.Length - 1)
+            //{
+            //    currentCard = 0;
+            //}
+
+            if (picUserCard.Image == picDealer.Image)
+            {
+                MessageBox.Show("Dupe! image");
+                currentCard = rndUser.Next(testDeck.Length);
+            }
+
+            if (lblUserCard.Text.Equals(lblOtherCard.Text))
+            {
+                MessageBox.Show("Dupe! label");
+                currentCard = rndUser.Next(testDeck.Length);
+            }
+
+
+            cardImage = testDeck[currentCard].getCardIdentifier();
+            lblUserCard.Text = cardImage;
+            picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
+            
+            currentCard = rndUser.Next(testDeck.Length);
+
+
+            cardImage = testDeck[currentCard].getCardIdentifier();
+            lblOtherCard.Text = cardImage;
+            picDealer.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
+            
+            currentCard = rndUser.Next(testDeck.Length);
+
         }
         //end testing
     }

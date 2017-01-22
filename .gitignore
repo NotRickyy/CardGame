@@ -74,3 +74,5 @@ CardGame/CardGame/bin/Debug/CardGame.exe
 CardGame/CardGame/obj/Debug/CardGame.pdb
 CardGame/CardGame/bin/Debug/CardGame.pdb
 CardGame/CardGame/bin/Debug/CardGame.exe
+*.Cache
+CardGame/CardGame/obj/Debug/CardGame.csproj.GenerateResource.Cache

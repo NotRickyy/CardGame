@@ -31,5 +31,10 @@ namespace CardGame
             
 
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Placeholder Text");
+        }
     }
 }
