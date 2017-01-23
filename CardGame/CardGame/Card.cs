@@ -8,7 +8,7 @@ namespace CardGame
 {
     class Card
     {
-        private int suit;//1=hearts, 2=diamonds, 3=clubs, 4=spades.  Order can be changed if needed.
+        private int suit;//4=hearts, 3=diamonds, 2=clubs, 1=spades.  Order can be changed if needed.
         private int value;
 
         public Card(int suit, int value)
@@ -48,16 +48,16 @@ namespace CardGame
             String suit = "";
             switch (Suit)
             {
-                case 1:
+                case 4:
                     suit = "Hearts";
                     break;
-                case 2:
+                case 3:
                     suit = "Diamonds";
                     break;
-                case 3:
+                case 2:
                     suit = "Clubs";
                     break;
-                case 4:
+                case 1:
                     suit = "Spades";
                     break;
                 default:
