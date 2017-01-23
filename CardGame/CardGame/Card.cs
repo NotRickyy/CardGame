@@ -98,7 +98,7 @@ namespace CardGame
         }
 
         //compare card, set chkSuit to true to compare the suits as well
-        public String compare(Card card, Boolean chkSuit)
+        public String compare(Card card)
         {
             if (card.value > this.value)
             {
@@ -110,19 +110,14 @@ namespace CardGame
             }
             else if (card.value == this.value)
             {
-                if (chkSuit == true)
+                if (card.suit > this.suit)
                 {
-                    if (card.suit > this.suit)
-                    {
-                        return "Higher";
-                    }
-                    else if (card.suit < this.suit)
-                    {
-                        return "Lower";
-                    }
+                    return "Higher";
                 }
-                //Can add to check suit to see which is higher here.
-                return "Equal";
+                else if (card.suit < this.suit)
+                {
+                    return "Lower";
+                }
             }
             return "Error";
         }

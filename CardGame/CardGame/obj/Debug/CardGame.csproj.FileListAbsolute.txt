@@ -21,3 +21,4 @@ C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.frmC
 C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.frmHighLow.resources
 C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.Properties.Resources.resources
 C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.csproj.GenerateResource.Cache
+C:\Users\Hau\Documents\GitHub\CardGame\CardGame\CardGame\obj\Debug\CardGame.g.resources
