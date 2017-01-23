@@ -17,6 +17,9 @@ namespace CardGame
         String cardImage;
         int currentCard;
         //end test variables
+        Random rndUser = new Random();
+        int userCard, otherCard;
+
 
 
         public frmHighLow()
@@ -84,37 +87,37 @@ namespace CardGame
         private void picDeck_Click(object sender, EventArgs e)
         {
 
-            Random rndUser = new Random();
+            
             //if (currentCard > testDeck.Length - 1)
             //{
             //    currentCard = 0;
             //}
 
-            if (picUserCard.Image == picDealer.Image)
+
+            while (userCard != otherCard)
             {
-                MessageBox.Show("Dupe! image");
-                currentCard = rndUser.Next(testDeck.Length);
+                otherCard = rndUser.Next(testDeck.Length);
             }
 
-            if (lblUserCard.Text.Equals(lblOtherCard.Text))
-            {
-                MessageBox.Show("Dupe! label");
-                currentCard = rndUser.Next(testDeck.Length);
-            }
-
-
-            cardImage = testDeck[currentCard].getCardIdentifier();
+            userCard = rndUser.Next(testDeck.Length);
+            cardImage = testDeck[userCard].getCardIdentifier();
             lblUserCard.Text = cardImage;
             picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
-            
-            currentCard = rndUser.Next(testDeck.Length);
 
 
-            cardImage = testDeck[currentCard].getCardIdentifier();
+
+            otherCard = rndUser.Next(testDeck.Length);
+            cardImage = testDeck[otherCard].getCardIdentifier();
             lblOtherCard.Text = cardImage;
             picDealer.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
-            
-            currentCard = rndUser.Next(testDeck.Length);
+
+            if (userCard == otherCard)
+            {
+                    otherCard = rndUser.Next(testDeck.Length);
+                    MessageBox.Show("Dupe! image");
+            }
+
+
 
         }
         //end testing
