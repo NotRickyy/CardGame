@@ -20,7 +20,6 @@ namespace CardGame
         int lives, score;
         Boolean dealt;
 
-
         public frmHighLow()
         {
             InitializeComponent();
@@ -51,20 +50,6 @@ namespace CardGame
             Close();
 
         }
-
-        //testing 
-        //private void picUserCard_Click(object sender, EventArgs e)
-        //{
-        //    if (currentCard > deck.Length - 1)
-        //    {
-        //        currentCard = 0;
-        //    }
-        //    cardImage = deck[currentCard].getCardIdentifier();
-        //    lblUserCard.Text = cardImage;
-        //    picUserCard.Image = (Image)Properties.Resources.ResourceManager.GetObject(cardImage);
-        //    picUserCard.Refresh();
-        //    currentCard++;
-        //}
 
         private void btnHigher_Click(object sender, EventArgs e)
         {
@@ -152,7 +137,7 @@ namespace CardGame
             lblScoreNum.Text = "" + score;
             if (lives < 1)
             {
-                MessageBox.Show("YOU LOSE \n FINAL SCORE: " + score);
+                MessageBox.Show("YOU LOSE \nFINAL SCORE: " + score);
                 btnBack.PerformClick();
             }
         }
